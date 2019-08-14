@@ -83,7 +83,7 @@ def menu():
 while True:
     menu()
     chon = int(input('\33[92mnhap lua chon cua ban vao day: '))
-    if chon == 1or chon==2:
+    if chon == 1 or chon==2:
         Nhap1HoaDon(khachhang, hoadon)
         khachhang['tongtien'] = TongTien(hoadon)
         khachhang['hangdamua'] = hoadon * 1
